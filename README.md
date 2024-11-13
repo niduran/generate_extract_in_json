@@ -10,7 +10,6 @@ docker pull postgres
 docker run -d  -p 5432:5432 -e POSTGRES_USER=ibm -e POSTGRES_PASSWORD=SomeRandomPassword! -e POSTGRES_DB=exercise postgres
 ```
 
-### steps
 ## run generate_tables.py
 This script is generating tables in postgres database.
 
